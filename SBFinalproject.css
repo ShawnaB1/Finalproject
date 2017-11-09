@@ -1,0 +1,45 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+body{
+	font-family: Verdana,"Arial";
+	font-size:16px;
+}
+
+#header{
+	height: 50vh;
+	text-align:center;
+	display:block;
+	width:100%;
+	clear:both;
+	background-size: cover;
+	background-image: url("images/backgroundwide2.png");
+}
+
+h1{
+    position: absolute;
+    text-align:center;
+    top: 25px;
+    width:100%;
+    font-family:Verdana, "Arial";
+    font-size:35px;
+}
+
+#routes{
+	display:block;
+	font-family:arial, times new roman;
+	position: center;
+	clear:both;
+	word-wrap: normal;
+}
+p{
+	display:block;
+	width:100%;
+	margin-right:0px;
+}
+
+#bold{
+	font-weight:bold
+}
