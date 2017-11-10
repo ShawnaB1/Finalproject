@@ -1,40 +1,36 @@
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media (max-width: 768px) {
-    /* For mobile phones: */
+@media (max-width: 480px) {
+    /* For mobile phones: 
     [class*="col-"] {
-        width: 100%;
-    }
-    img{
-    	width: 30vh;
-    }
+        width: 80vh;*/
     p{
     	font-size:12px;
+    	width:650px;
     }
     h1{
-    	font-size:20px;
-    }
-}
-
-body{
-	font-family: Verdana,"Arial";
-	font-size:16px;
+    	font-size:15px;
+    	color:#FFFFFF;
+	}
+	#header{
+		background-image: url("images/bikeheader.png");
+	}
+	.container-fluid{
+		width:300px;
+		margin-left:0 auto;
+		margin-right: 0 auto;
+	}
+	img{
+		margin-bottom:20px;
+		margin:0 auto;
+		width:650px;
+	}
+	body{
+		margin-right:0;
+		width:100vh;
+	}
 }
 
 #header{
-	height: 50vh;
+	height: 400px;
 	text-align:center;
 	display:block;
 	width:100%;
@@ -44,23 +40,16 @@ body{
 }
 
 h1{
-    position: absolute;
-    text-align:center;
     top: 25px;
     width:100%;
     font-family:Verdana, "Arial";
     font-size:35px;
 }
-
-#routes{
-	display:block;
-	font-family:arial, times new roman;
-	clear:both;
-}
 p{
 	display:block;
 	margin-right:40px;
 	width:680px;
+	font-size:16px;
 }
 
 #bold{
@@ -74,11 +63,8 @@ img{
 	text-align: center;
 }
 
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
 .container-fluid{
 	width:680px;
+	margin:0 auto
+	margin-right:0 auto;
 }
